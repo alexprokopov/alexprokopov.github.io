@@ -1,0 +1,110 @@
+
+@media screen and (max-width: 720px) {
+	.project p {
+		min-height: 0;
+		margin-top: 10px;
+		margin-bottom: 0;
+	}
+
+	.project{
+		border-bottom: 2px dashed grey;
+		padding-bottom: 5px;
+	}
+
+	div.projects>div>.project:last-of-type {
+		border-bottom: none;
+	}
+
+	#myCarousel {
+		margin-top: 50px;
+	}
+
+	#myCarousel, .slider {
+		max-height: 300px;
+	}
+
+	.slider img {
+		max-height:300px;
+	}
+
+	.carousel-caption {
+
+		position: absolute;
+		top: 0;
+	    right: 5%;
+    	left: 5%;
+    	padding-top: 20px;
+	}
+
+	.carousel-caption h1 {
+		font-size: 1.8em;
+	}
+
+	div.navbar-wrapper>div {
+		background-color: white;
+	}
+
+	.navbar-nav {
+		float: none;
+		text-align: center;
+	}
+
+	.jumbotron p {
+		font-size: 1.1em;
+	}
+
+	.jumbotron h2 {
+	font-size: 1.8em;
+	font-weight: bolder;
+	color: black;
+	}
+
+
+	.jumbotron h2 small {
+		font-size: 1em;
+	}
+
+	.description h3 {	
+	font-size: 1.3em;
+	}
+
+	.description li {
+	font-size: 1.1em;
+	}
+
+#devices, #testing_types, #docs {
+	padding-top: 50px;
+	padding-bottom: 0;
+}
+}
+
+
+
+
+@media screen and (min-width: 721px){
+
+	.cell {
+		min-height: 40px;
+	}
+	#myCarousel {
+		margin-top: 50px;
+	}
+	#myCarousel, .slider {
+		max-height: 450px;
+		max-width: 100%;
+	}
+	.carousel-caption {
+		vertical-align: middle;
+		position: absolute;
+		top: 20%;
+	}
+
+	h2.featurette-heading {
+    margin-top: 10px; 
+}
+
+#testing_types p {
+	vertical-align: middle;
+
+}
+}
